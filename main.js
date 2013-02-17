@@ -217,7 +217,8 @@ GcodeView.prototype.resize = function(gcodeText){
     this.gcodeRenderer.setSize(w, h);
     this.camera.aspect = w / h;
     this.camera.updateProjectionMatrix();
-};
+    this.controls.handleResize();
+  };
 
 GcodeView.prototype.createGcodeScene = function(element) {
 
