@@ -1,0 +1,34 @@
+{
+	"name": "3d-Printroom",
+	"description": "3D printer file explorer.",
+	"version": "0.1",
+	"maintainers":[{
+		"name": "Gary Hodgson",
+		"email": "contact@garyhodgson.com",
+		"web": "http://garyhodgson.com"
+	}],
+	"licenses": [{
+		"type": "GPLv3",
+		"url": "http://www.example.com/licenses/gpl.html"
+	}],
+	"repositories": [{
+		"type": "git", 
+		"url": "https://github.com/garyhodgson/3D-Printroom"
+	}],
+	"main": "index.html",
+	"window": {
+		"toolbar": false,
+		"width": 800,
+		"height": 600
+	},
+	"dependencies": {
+		"filestat.js": "*",
+		"humanize": "0.0.x",
+		"jade": "0.28.x",
+		"moment": "1.7.x",
+		"nstore": "0.5.x",
+		"sourcefolder_view.js": "*",
+		"targetfolder_view.js": "*",
+		"underscore": "1.4.x"
+	}
+}

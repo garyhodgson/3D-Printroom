@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>3D Printroom</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+
+	<link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+	<link href="css/layout-default-latest.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<div id="container">
+
+		<div class="ui-layout-west" id="folders-container">
+
+			<div class="ui-layout-center">
+
+				<div id="sourcedircontainer">
+
+					<table id="sourcefilelist" class="table table-condensed sortable">
+						<thead>
+							<tr>
+								<th>&nbsp;</th>
+								<th>Name</th>
+								<th>Size</th>								
+							</tr>
+						</thead>
+						<tbody>
+
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="ui-layout-south">
+
+				<table id="derivativefilelist" class="table table-condensed sortable">
+					<thead>
+						<tr>
+							<th>&nbsp;</th>
+							<th>Name</th>
+							<th>Size</th>
+							<th>Created</th>
+							<th>Modified</th>
+							<th>Bottom Solid Layers</th>
+							<th>Extrusion Multiplier</th>
+							<th>Filament Diameter</th>
+							<th>Fill Density</th>
+							<th>First Layer Extrusion Width</th>
+							<th>Infill Extrusion Width</th>
+							<th>Infill Speed</th>
+							<th>Layer Height</th>
+							<th>Nozzle Diameter</th>
+							<th>Perimeter Speed</th>
+							<th>Perimeters</th>
+							<th>Perimeters Extrusion Width</th>
+							<th>Scale</th>
+							<th>Top Solid Layers</th>
+							<th>Travel Speed</th>
+						</tr>
+					</thead>
+					<tbody>
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="ui-layout-center" id="views-container">
+			<div class="ui-layout-center">
+				<div id="sourceviewer"></div>
+			</div>
+			<div class="ui-layout-south">
+				<div id="gcodeviewer"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/jquery.layout.js"></script>
+	<script src="js/sorttable.js"></script>
+
+	<script src="js/modernizr.js"></script>
+	<script src="js/sugar.js"></script>
+	
+	<script src="js/Three_55.js"></script>
+	<script src="js/gcodeviewer/Three.OrbitControls.js"></script>
+	<script src="js/gcodeviewer/Three.TrackballControls.js"></script>
+
+	<script src="js/thingiview/Three.js"></script>
+    <script src="js/thingiview/plane.js"></script>
+    
+    <script src="js/thingiview/thingiview.js"></script>
+	
+    <script src="js/gcodeviewer/gcode-parser.js"></script>
+    <script src="js/gcodeviewer/gcode-model.js"></script>
+
+	<script src="main.js"></script>
+
+</body>
+</html>

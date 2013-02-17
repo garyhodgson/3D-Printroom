@@ -1,0 +1,7 @@
+dist
+node_modules/nstore
+node_modules/jade
+node_modules/underscore
+node_modules/humanize
+node_modules/moment
+node_modules/.bin
