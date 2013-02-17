@@ -32,7 +32,7 @@ This app is a little side project which attempts to address this problem, inspir
 
 
 ## Running
-At this stage the best bet is to follow the hacking instructions below and run the latest version using node-webkit directly.  If you want to simply play with a version there is a Windows binary here: [3D-Printroom-distribution.zip](https://dl.dropbox.com/u/22464622/3D-Printroom/3D-Printroom-distribution.zip).
+At this stage the best bet is to follow the hacking instructions below and run the latest version using node-webkit directly.  If you want to simply play with a version there is a Windows binary here: [3D-Printroom-distribution.zip](https://dl.dropbox.com/u/22464622/3D-Printroom/3D-Printroom-distribution.zip). (Linux and Mac will have to sadly follow the hacking instructions below.)
 
 * Download and extract zip file.
 * Double click 3D-Printroom.exe.
